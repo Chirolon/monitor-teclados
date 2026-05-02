@@ -89,7 +89,7 @@ st.divider()
 
 if st.button('Nati'):
     try:
-        audio_file = open('manteca.mp3', 'rb')
+        audio_file = open('Manteca.mp3', 'rb')
         audio_bytes = audio_file.read()
         st.audio(audio_bytes, format='audio/mp3')
         st.success("Sonando: Manteca - Shinzo 🎶")
